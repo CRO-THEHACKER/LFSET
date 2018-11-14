@@ -1,3 +1,3 @@
 #!/bin/bash
 
-python r.py
+python3 r.py

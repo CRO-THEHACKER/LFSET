@@ -2,7 +2,7 @@
 # -*-encodeing: UTF-8 -*-
 
 import time
-import system
+import sys
 import os
 
 print('''
@@ -13,3 +13,4 @@ print('''
 ███████╗██║     ███████║███████╗   ██║   
 ╚══════╝╚═╝     ╚══════╝╚══════╝   ╚═╝   
      From TDA - To you, our users!''')
+os.system('python3 mkdir.py')

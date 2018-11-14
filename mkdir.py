@@ -2,7 +2,7 @@
 
 import time
 import os
-import system
+import sys
 
 print("Makeing: /etc/")
 os.mkdir('etc')
@@ -20,7 +20,11 @@ time.sleep(2)
 print("Makeing: /etc/sys/")
 os.mkdir('sys')
 os.system('cd ..')
+print("Makeing: /etc/temp/installfiles/")
+os.mkdir('temp')
+os.mkdir('installfiles')
+time.sleep(2)
 print("Making files now!")
 time.sleep(3)
 os.system('clear')
-os.system('python mkfiles.py')
+os.system('python3 movfiles.py")
