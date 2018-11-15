@@ -5,6 +5,7 @@ import time
 import sys
 import os
 
+os.system('clear')
 print('''
 ██╗     ███████╗███████╗███████╗████████╗
 ██║     ██╔════╝██╔════╝██╔════╝╚══██╔══╝
@@ -12,5 +13,7 @@ print('''
 ██║     ██╔══╝  ╚════██║██╔══╝     ██║   
 ███████╗██║     ███████║███████╗   ██║   
 ╚══════╝╚═╝     ╚══════╝╚══════╝   ╚═╝   
-     From TDA - To you, our users!''')
+     From TDA - To you, our users!
+     
+''')
 os.system('python3 chmodf.py')
