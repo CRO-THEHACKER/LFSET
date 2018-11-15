@@ -4,5 +4,5 @@ import os
 import system
 import time
 
-#open /files/ download them stuff
-
+print("Installing Files for LFS")
+os.system('wget ')
