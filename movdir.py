@@ -7,6 +7,8 @@ import subprocess
 
 md = os.getcwd()
 
+print('''
+''')
 print("Moveing: dl.py, gflfs.py, gmd5hk.py to: /lfset/files/")
 subprocess.call("mv dl.py files", shell=True)
 subprocess.call("mv r.sh files", shell=True)
@@ -18,5 +20,6 @@ subprocess.call("mv wgetftp.sh etc/temp/installfiles", shell=True)
 subprocess.call("mv lfsinstallinst.py etc/temp/installfiles", shell=True)
 subprocess.call("mv mkdir.py etc/temp/installfiles", shell=True)
 subprocess.call("mv movdir.py etc/temp/installfiles", shell=True)
+subprocess.call("mv uninstall.py etc/temp/installfiles", shell=True)
 print("Done Moveing Dir's!")
 os.system('python3 ' + md + ' files/lfsinstallinst.py')
