@@ -13,4 +13,4 @@ print('''
 ███████╗██║     ███████║███████╗   ██║   
 ╚══════╝╚═╝     ╚══════╝╚══════╝   ╚═╝   
      From TDA - To you, our users!''')
-os.system('python3 mkdir.py')
+os.system('python3 chmodf.py')
