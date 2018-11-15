@@ -4,13 +4,13 @@ import time
 import os
 import sys
 
-os.chmod('dl.py')
-os.chmod('chmodf.py')
-os.chmod('gflfs.py')
-os.chmod('gmd5hk.py')
-os.chmod('lfsinstallinst.py')
-os.chmod('mkdir.py')
-os.chmod('movdir.py')
-os.chmod('r.py')
-os.chmod('r.sh')
+os.system('chmod +x dl.py')
+os.system('chmod +x chmodf.py')
+os.system('chmod +x gflfs.py')
+os.system('chmod +x gmd5hk.py')
+os.system('chmod +x lfsinstallinst.py')
+os.system('chmod +x mkdir.py')
+os.system('chmod +x movdir.py')
+os.system('chmod +x r.py')
+os.system('chmod +x r.sh')
 os.system('python3 mkdir.py')
