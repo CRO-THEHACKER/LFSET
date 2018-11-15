@@ -22,7 +22,4 @@ print("Makeing: /etc/temp/installfiles/")
 os.mkdir('etc/temp/')
 os.mkdir('etc/temp/installfiles/')
 time.sleep(2)
-print("Files done..."
-time.sleep(3)
-os.system('clear')
 os.system('python3 movfiles.py')
