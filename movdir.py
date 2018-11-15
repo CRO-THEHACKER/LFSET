@@ -5,7 +5,7 @@ import os
 import time
 import subprocess
 
-md = os.getcwd()
+dir = os.getcwd()
 
 print('''
 ''')
@@ -23,4 +23,4 @@ subprocess.call("mv movdir.py etc/temp/installfiles", shell=True)
 subprocess.call("mv uninstall.py etc/temp/installfiles", shell=True)
 subprocess.call("mv LICENSE .git", shell=True)
 print("Done Moveing Dir's!")
-os.system('python3 ' + md + ' files/lfsinstallinst.py')
+os.system('python3 ' + dir + ' files/lfsinstallinst.py')
